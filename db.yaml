@@ -1,0 +1,12 @@
+Resources:
+  MyDB:
+    Type: 'AWS::RDS::DBInstance'
+    Properties:
+      DBInstanceIdentifier: db-1
+      DBName: new
+      DBInstanceClass: db.t3.micro
+      AllocatedStorage: 20
+      Engine: PostgreSQL
+      EngineVersion: PostgreSQL
+      MasterUsername: neelam_98
+      MasterUserPassword: neel1998
